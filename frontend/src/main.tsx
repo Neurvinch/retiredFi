@@ -41,7 +41,7 @@ createRoot(rootElement).render(
   <StrictMode>
     <WagmiProvider config={config}>
       <QueryClientProvider client={queryClient} >
-        <RainbowKitProvider theme={theme} chains={[sepolia]}>
+        <RainbowKitProvider theme={theme}>
           <App />
         </RainbowKitProvider>
       </QueryClientProvider>
